@@ -1,27 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import "slick-carousel/slick/slick.css";
+@import "slick-carousel/slick/slick-theme.css";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
 
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Poppins', sans-serif;
+  background-color: #ffffff;
+  /* background-image: linear-gradient(90deg, #BD24DF 0%, #2D6ADE 97.15%); */
+
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+html {
+  scroll-behavior: smooth !important;
 }
+
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  opacity: 1.9;
+  transition: 0.4s linear;
+  z-index: 40;
+}
+
+.navbutton {
+  background: linear-gradient(90deg, #BD24DF 0%, #2D6ADE 97.15%);
+  border-radius: 10px;
+}
+
+.navbutton:hover {
+  background: linear-gradient(90deg, #2D6ADE 0%, #BD24DF 97.15%);
+}
+
+.arrowOne {
+  position: absolute;
+  bottom: 37%;
+  left: 0px;
+  background-image: url('/images/Banner/arrowOne.svg');
+  width: 105px;
+  height: 59px;
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+
+.arrowTwo {
+  position: absolute;
+  top: 20%;
+  left: 17%;
+  background-image: url('/images/Banner/arrowTwo.svg');
+  width: 9%;
+  height: 100%;
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+
+.arrowThree {
+  position: absolute;
+  background-image: url('/images/Banner/arrowThree.svg');
+  top: 32%;
+  left: 53%;
+  width: 9%;
+  height: 100%;
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+
+.arrowFour {
+  position: absolute;
+  background-image: url('/images/Banner/arrowFour.svg');
+  top: 48%;
+  left: 46%;
+  width: 9%;
+  height: 100%;
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+
+.arrowFive {
+  position: absolute;
+  background-image: url('/images/Banner/arrowFive.svg');
+  top: 61%;
+  left: 53%;
+  width: 9%;
+  height: 100%;
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+
+.arrowSix {
+  position: absolute;
+  background-image: url('/images/Banner/arrowSix.svg');
+  top: 39%;
+  left: 80%;
+  width: 9%;
+  height: 100%;
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+
+.arrowSeven {
+  position: absolute;
+  background-image: url('/images/Banner/arrowSeven.svg');
+  top: 57%;
+  left: 79%;
+  width: 9%;
+  height: 100%;
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+
+.arrowEight {
+  position: absolute;
+  background-image: url('/images/Banner/arrowEight.svg');
+  top: 57%;
+  right: 0%;
+  width: 9%;
+  height: 100%;
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+
+/* Work Section */
+
+.card-b {
+  background: #eff0f3;
+  box-shadow: 0px 4px 4px rgba(248, 246, 246, 0.25);
+  border-radius: 20px;
+  position: relative;
+  transition: transform 430ms;
+  height: 340px;
+}
+
+.card-b:hover {
+  filter: drop-shadow(0px 20px 5px rgba(0, 0, 0, 0.1));
+  transform: scale(1.05);
+  border: 1px solid #BD24DF;
+  height: 360px;
+}
+
+.hides {
+  display: none;
+}
+
+.card-b:hover > .hides {
+  display: block;
+}
+
+.work-img-bg {
+  background: linear-gradient(90deg, #BD24DF 0%, #2D6ADE 97.15%);
+  top: -51px;
+  right: 40%;
+}
+
+/* Table Section */
+
+.table-b {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+}
+
+/* Feature Section */
+
+.feature-font {
+  background: linear-gradient(90deg, #BD24DF 0%, #2D6ADE 97.15%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.gg {
+  background: linear-gradient(90deg, #BD24DF 0%, #2D6ADE 97.15%);
+}
+
+/* Simple Section */

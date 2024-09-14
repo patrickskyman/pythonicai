@@ -1,0 +1,128 @@
+[
+    {
+        "id": "1",
+        "category": "electronics",
+        "tag": "smartphones, Apple",
+        "title": "iPhone 16: What to Expect from Apple's Latest Flagship",
+        "date": "Jan 15, 2024",
+        "author": "Sophie Williams",
+        "avatar": "/images/avatar/1.png",
+        "thumbImg": "/images/electronics/iphone3.jpeg",
+        "coverImg": "/images/electronics/iphone16large.jpeg",
+        "subImg": [
+            "/images/electronics/iphone3.jpeg",
+            "/images/electronics/iphone16large.jpeg"
+        ],
+        "shortDesc": "Explore the features and specs of the highly anticipated iPhone 16.",
+        "description": "Apple's latest flagship, the iPhone 16, is set to be a game-changer with cutting-edge technology, improved camera capabilities, and a sleek design. This article covers everything you need to know, from performance upgrades to new features.",
+        "slug": "iphone-16-features"
+    },
+    {
+        "id": "2",
+        "category": "electronics",
+        "tag": "smartphones, Android",
+        "title": "Top Android Phones of 2024: A Comprehensive Guide",
+        "date": "Feb 10, 2024",
+        "author": "Emily Carter",
+        "avatar": "/images/avatar/1.png",
+        "thumbImg": "/images/electronics/iphone16large.jpeg",
+        "coverImg": "/images/electronics/iphonetr.jpeg",
+        "subImg": [
+            "/images/electronics/iphone16large.jpeg",
+            "/images/electronics/iphonetr.jpeg"
+        ],
+        "shortDesc": "Discover the best Android smartphones of 2024, from budget-friendly options to flagship models.",
+        "description": "This guide provides an in-depth look at the top Android smartphones of 2024. From high-end devices with impressive specs to affordable yet powerful options, we've rounded up the best choices for every user.",
+        "slug": "top-android-phones-2024"
+    },
+    {
+        "id": "3",
+        "category": "electronics",
+        "tag": "wearables, fitness",
+        "title": "Best Smartwatches for Fitness Tracking in 2024",
+        "date": "Mar 5, 2024",
+        "author": "Jessica Brown",
+        "avatar": "/images/avatar/1.png",
+        "thumbImg": "/images/electronics/iphonetr.jpeg",
+        "coverImg": "/images/electronics/iphone16large.jpeg",
+        "subImg": [
+            "/images/electronics/iphonetr.jpeg",
+            "/images/electronics/iphone16large.jpeg"
+        ],
+        "shortDesc": "Stay on top of your fitness goals with the best smartwatches for 2024.",
+        "description": "From advanced health metrics to long battery life, these smartwatches are designed to help you track your fitness journey. Learn about the top picks for fitness-focused wearables this year.",
+        "slug": "best-smartwatches-2024"
+    },
+    {
+        "id": "4",
+        "category": "electronics",
+        "tag": "laptops, ultrabooks",
+        "title": "The Best Ultrabooks of 2024: Lightweight and Powerful",
+        "date": "Apr 10, 2024",
+        "author": "Lucy Green",
+        "avatar": "/images/avatar/1.png",
+        "thumbImg": "/images/electronics/iphone16large.jpeg",
+        "coverImg": "/images/electronics/iphonetr.jpeg",
+        "subImg": [
+            "/images/electronics/iphone16large.jpeg",
+            "/images/electronics/iphonetr.jpeg"
+        ],
+        "shortDesc": "Find the best ultrabooks that combine power and portability for 2024.",
+        "description": "If you're looking for a laptop that offers both performance and portability, ultrabooks are the way to go. This article highlights the best ultrabooks of 2024, ideal for professionals and students alike.",
+        "slug": "best-ultrabooks-2024"
+    },
+    {
+        "id": "5",
+        "category": "electronics",
+        "tag": "home tech, smart devices",
+        "title": "Smart Home Devices of 2024: Revolutionize Your Living Space",
+        "date": "May 20, 2024",
+        "author": "Sarah Lewis",
+        "avatar": "/images/avatar/1.png",
+        "thumbImg": "/images/electronics/iphone3.jpeg",
+        "coverImg": "/images/electronics/iphonetr.jpeg",
+        "subImg": [
+            "/images/electronics/iphone3.jpeg",
+            "/images/electronics/iphonetr.jpeg"
+        ],
+        "shortDesc": "Upgrade your home with the latest smart devices of 2024.",
+        "description": "From smart thermostats to voice-activated assistants, smart home technology has transformed the way we live. Discover the most innovative smart home devices of 2024 and how they can improve your daily life.",
+        "slug": "smart-home-devices-2024"
+    },
+    {
+        "id": "6",
+        "category": "electronics",
+        "tag": "gaming, consoles",
+        "title": "The Best Gaming Consoles of 2024: Next-Gen Power and Performance",
+        "date": "Jun 15, 2024",
+        "author": "Mark Taylor",
+        "avatar": "/images/avatar/1.png",
+        "thumbImg": "/images/electronics/iphonetr.jpeg",
+        "coverImg": "/images/electronics/iphone16large.jpeg",
+        "subImg": [
+            "/images/electronics/iphonetr.jpeg",
+            "/images/electronics/iphone16large.jpeg"
+        ],
+        "shortDesc": "Take your gaming to the next level with the best consoles of 2024.",
+        "description": "2024 is a great year for gaming, with next-gen consoles offering unparalleled power and performance. Learn about the top gaming consoles and how they stand out in terms of speed, graphics, and game selection.",
+        "slug": "best-gaming-consoles-2024"
+    },
+    {
+        "id": "7",
+        "category": "electronics",
+        "tag": "cameras, photography",
+        "title": "Top Cameras for Photography Enthusiasts in 2024",
+        "date": "Jul 10, 2024",
+        "author": "Laura White",
+        "avatar": "/images/avatar/1.png",
+        "thumbImg": "/images/electronics/iphone3.jpeg",
+        "coverImg": "/images/electronics/iphonetr.jpeg",
+        "subImg": [
+            "/images/electronics/iphone3.jpeg",
+            "/images/electronics/iphonetr.jpeg"
+        ],
+        "shortDesc": "Capture stunning photos with the best cameras for 2024.",
+        "description": "Whether you're a professional or a hobbyist, having the right camera can make all the difference. This article reviews the top cameras for 2024, focusing on image quality, ease of use, and versatility for all types of photography.",
+        "slug": "top-cameras-2024"
+    }
+]
